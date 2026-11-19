@@ -35,7 +35,7 @@ export default function App() {
   return (
     <>
       <Page />
-      <div style={{ background: '#f9f4ed', padding: '14px 0 26px', textAlign: 'center', fontSize: 10, letterSpacing: '.28em', textTransform: 'uppercase', color: 'rgba(60,50,40,.6)', fontFamily: "sans-serif" }}>
+      <div className="zt-credit" style={{ background: '#0E0C08', borderTop: '1px solid rgba(212,184,106,.18)', padding: '16px 0 calc(22px + env(safe-area-inset-bottom, 0px))', textAlign: 'center', fontSize: 10, letterSpacing: '.28em', textTransform: 'uppercase', color: 'rgba(222,196,128,.72)', fontFamily: "'Jost', sans-serif" }}>
         <Credit />
       </div>
     </>

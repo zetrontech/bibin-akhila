@@ -2,8 +2,7 @@
 export const ZETRON_INSTAGRAM = 'https://www.instagram.com/zetron.tech'
 
 export default function Credit() {
-  // Watermark is shown on Zetron domains only, hidden on *.vercel.app links.
-  if (typeof location !== 'undefined' && location.hostname.endsWith('.vercel.app')) return null
+  // Shown on every host for this card, including *.vercel.app (user request 2026-11-19).
   return (
     <a
       href={ZETRON_INSTAGRAM}
