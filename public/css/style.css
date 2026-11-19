@@ -1665,3 +1665,7 @@ body.finale-particles .finale-fallback{opacity:0}
   font-size:10.5px;letter-spacing:.2em;text-transform:uppercase;
   color:var(--sage);font-weight:600;position:relative;z-index:1;
 }
+
+/* portrait story photos (client-supplied) */
+.story-photo-frame--portrait{aspect-ratio:4/5;max-height:none}
+.story-photo-frame--portrait .story-photo-img{object-position:center 22%}
