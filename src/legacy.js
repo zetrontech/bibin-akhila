@@ -7,5 +7,8 @@ export const scripts = [
   },
   {
     "src": "js/main.js"
+  },
+  {
+    "src": "js/rsvp.js"
   }
 ]
